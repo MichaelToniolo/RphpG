@@ -1,0 +1,30 @@
+body{
+    background-color: brown;
+    width: auto;
+}
+
+.container-global{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: column;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.formulario input, input[type="submit"]{
+    font-size: 20px;
+    border-radius: 30px;
+}
+
